@@ -1,0 +1,60 @@
+/* reset des page et default */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fffff1;
+}
+
+h2 {
+  font-family: fragmentcore,arial;
+  font-size: 20px;
+  text-align: center;
+}
+
+/*  NAVBAR DE LA PAGE */
+/* HEADER DE LA PAGE */
+.pre-debut {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  font-size: 20px;
+  background-color: #57575c;
+}
+
+.diap1 {
+  width: 1700px;
+  height: 720px;
+  background-color: #EDEDED;
+  background: url("/assets/img/guitare.JPG ");
+  background-size: contain;
+  animation: defilement1 10s linear infinite;
+}
+
+.conteneur {
+  width: 90vw;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #f51010;
+  opacity: 80%;
+}
+
+.conteneur1 {
+  background-color: #257711;
+  overflow: hidden;
+  max-width: 960px;
+  max-height: 500px;
+  margin: 50px auto;
+  box-shadow: 0px 15px 10px -5px #777;
+}
+
+@keyframes defilement1 {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-2880px, 0);
+  }
+}
+
+/**/
+/* PRODUITS DE LA PAGE */
+/**/
